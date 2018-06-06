@@ -41,7 +41,7 @@ def decryptDocument(doc):
 
 password = input("\nWhat's the password?\n > ")
 createCipher(password)
-doc = input("\nWhat is the name of your document?\n >")
+doc = input("\nWhat is the filepath of your document?\n >")
 choice = input("\nWould you like to encrypt or decrypt this document?\n >")
 if choice == "encrypt":
     encryptDocument(doc)
